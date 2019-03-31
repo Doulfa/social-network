@@ -21,7 +21,7 @@ def test_post_string_representation():
     post1.set_user(user)
     post2.set_user(user)
     post3.set_user(user)
-
+    
     assert str(post1) == '@Kevin Watson: "Sample post text"\n\tTuesday, Jan 10, 2017'
 
     assert str(post2) == '@Kevin Watson: "Sample post text"\n\thttp://fake-domain.com/images/sample.jpg\n\tTuesday, Jan 10, 2017'

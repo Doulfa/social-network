@@ -68,3 +68,4 @@ class CheckInPost(Post):  # Inherit properly
         y = dt_object.year
         
         return '@{} Checked In: "{}"{}{}, {}{}{}, {} {}, {}'.format(self.user.first_name,self.text,"\n\t",self.latitude,self.longitude,"\n\t",week_name,s_m,d,y)
+    
